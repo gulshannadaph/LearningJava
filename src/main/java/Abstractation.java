@@ -18,5 +18,6 @@ class MyMainClass {
         Dog myDog = new Dog(); // Create a Pig object
         myDog.animalSound();
         myDog.sleep();
+
     }
 }
