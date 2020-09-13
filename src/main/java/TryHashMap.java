@@ -1,8 +1,5 @@
 // Import the HashMap class
 import java.util.HashMap;
-
-import static sun.tools.jstat.Alignment.keySet;
-
 public class TryHashMap {
     public static void main(String[] args) {
         // Create a HashMap object hm1
