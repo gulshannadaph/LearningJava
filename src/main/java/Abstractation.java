@@ -7,7 +7,7 @@ abstract class Abstractation {
         }
 }
 
-class Dog extends Abstractation {
+class Pig extends Abstractation {
     public void animalSound() {
         // The body of animalSound() is provided here
         System.out.println("The Dog says: Bhow Bhow");
@@ -15,7 +15,7 @@ class Dog extends Abstractation {
 }
 class MyMainClass {
     public static void main(String[] args) {
-        Dog myDog = new Dog(); // Create a Pig object
+        Pig myDog = new Pig(); // Create a Pig object
         myDog.animalSound();
         myDog.sleep();
 

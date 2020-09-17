@@ -1,9 +1,12 @@
 // Import the HashMap class
+import org.testng.annotations.Test;
+
 import java.util.HashMap;
 
-import static sun.tools.jstat.Alignment.keySet;
+
 
 public class TryHashMap {
+    @Test(priority=1)
     public static void main(String[] args) {
         // Create a HashMap object hm1
         HashMap<String, String> hm1 = new HashMap<String, String>();

@@ -1,7 +1,13 @@
+package Lists;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListExample {
+
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
@@ -25,5 +31,12 @@ public class ArrayListExample {
         System.out.println(i);
     }
 
+    }
+    @Test(priority = 2)
+    @Parameters("myName")
+    public static void printonly(String myName)
+    {
+        System.out.println("in Arraylist");
+        System.out.println(myName);
     }
 }
