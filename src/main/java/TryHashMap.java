@@ -3,8 +3,6 @@ import org.testng.annotations.Test;
 
 import java.util.HashMap;
 
-
-
 public class TryHashMap {
     @Test(priority=1)
     public static void main(String[] args) {
