@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="LearnJava" >
+        <!--<packages>-->
+
+            <!--<package name="Lists"/>-->
+        <!--</packages>-->
+
+        <classes>
+            <class name = "Lists.ArrayListExample" />
+            <class name = "Lists.LinkedListArray" />
+            <parameter name = "myName" value="manisha"/>
+        </classes>
+
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name = "toTest" />-->
+            <!--</run>-->
+        <!--</groups>-->
+    </test>
+
+</suite>
